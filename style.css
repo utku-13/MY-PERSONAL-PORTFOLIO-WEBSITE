@@ -1,0 +1,92 @@
+@media (max-width: 910px) {
+    /* Hide the div when the screen width is 1000px or less */
+    nav ul, nav button{
+      display: none;
+    }
+  }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://media.istockphoto.com/id/1419766496/tr/foto%C4%9Fraf/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?b=1&s=612x612&w=0&k=20&c=toBTTK46ZmI7qNh0rKXL1Z7Fqqf_FLqu5bdyKFegL9k=');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: rgba(0,0,0,0.3)
+}
+
+.logo{
+    color:white;
+    font-size: 28px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+span{
+    color:aqua
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 900;
+    text-decoration: none;  
+}
+
+nav ul li a:hover{
+    color: aqua;
+    transition: .3s;
+}
+
+button{
+    border: none;
+    background-color: rgb(19, 30, 102);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: .4s;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform:scale(1.3);
+    color: aqua;
+}
+
+  
+@media (min-width: 910px) {
+    /* Add your CSS styles here for elements to be displayed below 900px width */
+    .ph{
+      display: none; /* or any other display value you prefer */
+    }
+  }
+  
+.ph{
+    color: #fff;
+}
+
